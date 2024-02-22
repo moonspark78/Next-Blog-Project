@@ -6,6 +6,12 @@
     --btn: #3673fd;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 body{
     background-color: var(--bg);
@@ -15,4 +21,16 @@ body{
 a{
     text-decoration: none;
     color: inherit;
+}
+
+.container{
+    background-color: rebeccapurple;
+    margin: auto;
+    width: 1000px;
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
